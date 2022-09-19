@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Wilson
+ * CIS 350 Assignment 4
+ * This script manages the scoreboard and the win condition
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

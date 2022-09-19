@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Wilson
+ * CIS 350 Assignment 4
+ * This script manages the collision of a triggerzone on an onbsticle with the player to incrament the score
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

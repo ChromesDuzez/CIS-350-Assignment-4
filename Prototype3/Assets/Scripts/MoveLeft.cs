@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Wilson
+ * CIS 350 Assignment 4
+ * This script moves the object its applied to to the left (i.e. the obstacles, the background)
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
