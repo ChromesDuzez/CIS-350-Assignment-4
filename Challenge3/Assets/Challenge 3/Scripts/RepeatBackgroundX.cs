@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/* 
+ * Zach Wilson
+ * CIS 350 Assignment 4
+ * This script manages the background image so that it loops seemlessly
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +16,7 @@ public class RepeatBackgroundX : MonoBehaviour
     private void Start()
     {
         startPos = transform.position; // Establish the default starting position 
-        repeatWidth = GetComponent<BoxCollider>().size.y / 2; // Set repeat width to half of the background
+        repeatWidth = GetComponent<BoxCollider>().size.x / 2; // Set repeat width to half of the background
     }
 
     private void Update()
